@@ -7,6 +7,8 @@ PCB's
 
 PCB's - I used JLCPCB for production and found them very well priced, with quick delivery to me (UK). Quality was also very good, Files are provided here for the shield itself, the breakout PCB files are available on the pcsx repo - see further down this document.
 
+Example configuration - 'fully loaded'
+
 ![image](https://github.com/danhans42/pio_breakout_shield/blob/main/images/pio_breakout_ch376.jpg)
 
 Parts List
