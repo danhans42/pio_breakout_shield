@@ -44,6 +44,8 @@ pio_breakout_shield Configuration
 
 The board that be populated as much or as little as required. It can provide a simple 256k boot ROM so the PlayStation can boot from it - handy for Unirom etc. Alternatively you can add/program the SPLD (ATF22v10C), add a CH375/6 to it and you have a bootable cartridge that allows for USB host/device experimentation. 
 
+The CH-375 supports usb device(CH372) and host mode for mass storage. However the CH376 supports this as well as having built in FAT16/32 file system support.
+
 ATF22V10C Programming
 =====================
 
