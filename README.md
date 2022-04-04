@@ -15,3 +15,6 @@ Alternatively if you happy to go with it as is, you can just burn the provided j
 To note: the PCB layout and design is the work of Nicolas Noble who was kind enough to design this for me. Thanks for this and the PIO-Breakout, without none of this would have been possible.
 
 The PIO connectors can be difficult to source. See the information in the pcsx-redux wiki on the subject here, https://github.com/grumpycoders/pcsx-redux/wiki/PIO-port-replacement. Digikey link https://www.digikey.co.uk/en/products/detail/molex/0015921468/480913. They are also available on AliExpress for around $1.80 (link to follow). They do however require modification with a dremel slightly.
+
+For more info or psx related chat - join us on psx.dev discord (http://psx.dev/)
+
