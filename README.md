@@ -1,6 +1,6 @@
 # pio_breakout_shield
 
-Simple shield for a 39SF020, CH375/6 and Atmel ATF22V10 - for use on a Sony PlayStation console for expansion experimentation
+Simple shield for a 39SF020, CH375/6 and Atmel ATF22V10 - for use on a Sony PlayStation console for expansion experimentation. Pretty much the basis for a modern replacement PIO cart,
 
 ![image](https://github.com/danhans42/pio_breakout_shield/blob/main/images/pio_breakout_ch376.jpg)
 
@@ -13,3 +13,5 @@ The ATF22v10c can be programmed with a TL866 programmer, as can the EEPROM. If y
 Alternatively if you happy to go with it as is, you can just burn the provided jed which will give you the default configuration. (todo - document layout)
 
 To note: the PCB layout and design is the work of Nicolas Noble who was kind enough to design this for me. Thanks for this and the PIO-Breakout, without none of this would have been possible.
+
+The PIO connectors can be difficult to source. See the information in the pcsx-redux wiki on the subject here, https://github.com/grumpycoders/pcsx-redux/wiki/PIO-port-replacement. Digikey link https://www.digikey.co.uk/en/products/detail/molex/0015921468/480913. They are also available on AliExpress for around $1.80 (link to follow). They do however require modification with a dremel slightly.
