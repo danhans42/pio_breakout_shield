@@ -54,7 +54,7 @@ Alternatively you can just burn the provided jed which will give you the default
 Credit and Thanks
 =================
 
-To note: the PCB layout and design is the work of Nicolas Noble who was kind enough to design this for me. Thanks for this and the PIO-Breakout, without none of this would have been possible. Same for UNIROM (thanks sickle) which is indispensible for easy debugging of hardware like this. 
+To note: the PCB layout and design is the work of Nicolas Noble who was kind enough to design this for me. Thanks for this and the PIO-Breakout, without none of this would have been possible. Same for UNIROM (thanks sickle) which is indispensable for easy debugging of hardware like this. 
 
 For more info or psx related chat - join us on psx.dev discord (http://psx.dev/)
 
