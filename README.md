@@ -9,5 +9,4 @@ It is a simple board that can be populated as much or as little as you need. It 
 The SPLD can be programmed with a TL866 programmer, as can the EEPROM. If you wish to play around with the configuration you will need to obtain WinCUPL (https://www.microchip.com/en-us/products/fpgas-and-plds/spld-cplds/pld-design-resources) to build the equations. Alternatively if you happy to go with it as is, you can just burn the provided jed which will give you the default configuration. (todo)
 
 
-
-To note: the PCB layout and design is the work of nicolasnoble who was kind enough to design this for me.
+To note: the PCB layout and design is the work of Nicolas Noble who was kind enough to design this for me. Thanks for this and the PIO-Breakout, without none of this would have been possible.
