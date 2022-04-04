@@ -1,6 +1,8 @@
 # pio_breakout_shield
 
-Simple shield for a 39SF020, CH375/6 and Atmel ATF22V10 - for use on a Sony PlayStation console for expansion experimentation. Pretty much the basis for a modern replacement PIO cart,
+Simple shield for a 39SF020, CH375/6 and Atmel ATF22V10 - for use on a Sony PlayStation console for expansion experimentation. Pretty much the basis for a modern replacement PIO cart. The parts used are(were?) easily obtainable from your online marketplace of choice.
+
+PCB's - I used JLCPCB for production and found them very well priced, with quick delivery to me (UK). Quality was also very good,
 
 ![image](https://github.com/danhans42/pio_breakout_shield/blob/main/images/pio_breakout_ch376.jpg)
 
