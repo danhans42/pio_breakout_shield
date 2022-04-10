@@ -48,7 +48,7 @@ The provided config (PSX_PLORER in \atf22v10c folder) for the SPLD provides the 
 
 - 256k flash @ 0x1f000000 in one block (like xplorer)
 - CH37x @ 0x1f060002 (data)/0x1f060003 (cmd)
-- rom enable jumper (bridge) IO15/IO14
+- rom enable jumper (bridge) IO15/IO14 (useful if you screw up the rom and want to recover without cart hotswapping)
 
 This is very basic, its my intention to add some form of GPIO via the remaining pins but I currently do not have the patience with WinCUPL.
 If you so chose, you could fit a 29EE020 and be able to use the standard xplorer firmware (non pro/fx) with this config.
