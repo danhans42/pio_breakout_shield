@@ -1,0 +1,88 @@
+Name     PSX_PLORER ;
+PartNo   01 ;
+Date     01/01/2020 ;
+Revision 01 ;
+Designer danhans42@gmail.com ;
+Company  http://psx0.wordpress.com/ ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+
+/* 
+PSX CART SHIELD 
+
+Simple design for a cart that is loosely based on the Xplorer 
+
+
+EXPANSION MEMORY MAP
+=======================
+
+1F000000 - 1F03FFFF		SST 39EE020 256KB FLASH
+1F040000 - 1F05FFFF		OPEN BUS
+
+1f0600000			UNUSED
+1f0600001			UNUSED
+1F060002			WCH37X DATA
+1F060003			WCH37X CMD
+1F060004			UNUSED	
+1F060005			UNUSED	
+1F060006			UNUSED
+1F060007			UNUSED
+
+1F070000 - 1F07FFFF		UNUSED
+
+PLD IO USAGE
+=============
+
+PD    	(PIN4)	Ground (GND)
+IO1  	(PIN15)   EEPROM enable - EEP_CS enabled when high
+
+
+*/
+
+/*Inputs */
+
+Pin 1 = CLK;
+Pin 2 = A0;
+Pin 3 = A1;
+Pin 4 = GND;
+Pin 5 = A2;
+Pin 6 = CS0;
+Pin 7 = A16;
+Pin 8 = A17;
+Pin 9 = A18;
+Pin 10  = WR;
+Pin 11  = RD;
+Pin 20 = CH_INT;
+
+/* OUTPUTS */
+Pin 21 = EEP_CS;
+Pin 22 = WCH_CS;
+
+/* OTHERS */
+Pin 23 = D0;	/* PSX D0 */
+Pin 13 = I9;	/* INPUT ONLY */
+
+Pin 14 = IO14;
+Pin 15 = IO15;	/* EEPROM ENABLE/DISABLE */
+Pin 16 = IO16;
+Pin 17 = IO17;
+Pin 18 = IO18;
+Pin 19 = IO19;
+
+/* LOGIC */
+
+IO14 = !GND;
+
+!IO16 = !CS0;  /*passthru for LA attachment */
+
+!EEP_CS = !CS0 & !A18 & !IO15;
+!WCH_CS = !CS0 & A18 & A17 & !A16 & A1 & !A2 ; 
+
+
+
+
+
+
+
