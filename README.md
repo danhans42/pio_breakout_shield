@@ -15,7 +15,7 @@ Parts List
 ==========
 
 - SST39SF020 EEPROM (2Megabit)
-- WCH 375/376 moduke (Either works - 376 is better as it has FAT/FAT32 support)
+- WCH 375/376 module (Either works - 376 is better as it has FAT/FAT32 support)
 - Atmel ATF22V10C SPLD (GAL/PAL like device)
 - 7805 type 5v regulator (i used a little module for efficiency)
 - few caps for decoupling
